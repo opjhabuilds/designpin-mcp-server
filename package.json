@@ -22,7 +22,7 @@
   "type": "commonjs",
   "main": "index.js",
   "bin": {
-    "designpin-mcp": "./index.js"
+    "designpin-mcp": "index.js"
   },
   "files": [
     "index.js",
