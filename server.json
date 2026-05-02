@@ -1,18 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.opjhabuilds/designpin-mcp-server",
-  "description": "Push HTML prototypes to DesignPin for team review and pull reviewer feedback from inside any MCP-compatible AI client.",
+  "description": "Push HTML prototypes to DesignPin for team review and pull reviewer feedback into your AI.",
   "repository": {
     "url": "https://github.com/opjhabuilds/designpin-mcp-server",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "@designpin/mcp-server",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       },

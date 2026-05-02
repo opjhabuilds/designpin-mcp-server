@@ -23,7 +23,7 @@ function parseArgs(argv) {
   return out
 }
 
-const HELP_TEXT = `designpin-mcp v0.1.1 — MCP server for DesignPin
+const HELP_TEXT = `designpin-mcp v0.1.2 — MCP server for DesignPin
 
 Usage:
   npx @designpin/mcp-server --api-key <key> --project-id <id>
@@ -45,7 +45,7 @@ if (rawArgs.includes('--help')    || rawArgs.includes('-h')) {
   process.exit(0)
 }
 if (rawArgs.includes('--version') || rawArgs.includes('-v')) {
-  process.stdout.write('0.1.1\n')
+  process.stdout.write('0.1.2\n')
   process.exit(0)
 }
 
@@ -113,7 +113,7 @@ async function handleListComments({ moduleId, versionId }) {
 
 // ── Server setup ─────────────────────────────────────────────────────
 async function main() {
-  const server = new McpServer({ name: 'designpin-mcp', version: '0.1.1' })
+  const server = new McpServer({ name: 'designpin-mcp', version: '0.1.2' })
 
   server.registerTool('createShareLink', {
     description: 'Create a public review link for an HTML prototype. No project setup required — creates a brand-new throwaway project. Rate-limited to 10 requests/hour per IP. Use this for one-shot sharing of prototypes.',
