@@ -1,4 +1,5 @@
 # DesignPin MCP Server
+<!-- mcp-name: io.github.opjhabuilds/designpin-mcp-server -->
 
 > An MCP server that lets any AI assistant push HTML prototypes to **[DesignPin](https://designpin.pro)** for team review and read back reviewer feedback.
 

@@ -1,6 +1,6 @@
 {
   "name": "@designpin/mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for DesignPin — wrap any AI tool (Claude Desktop, Cursor, ChatGPT, Gemini) into a design review workflow. Push HTML prototypes, fetch reviewer comments, upload revisions.",
   "keywords": [
     "mcp",
